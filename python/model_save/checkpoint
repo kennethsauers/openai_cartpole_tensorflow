@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/hedonist/Documents/openai_cartpole_tensorflow/python/model_save/test"
+all_model_checkpoint_paths: "/home/hedonist/Documents/openai_cartpole_tensorflow/python/model_save/test"

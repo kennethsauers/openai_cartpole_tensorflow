@@ -28,6 +28,6 @@ def neural_network_model(input_size):
     network = dropout(network,.8)
     network = fully_connected(network, 2, activation='softmax')
     network = regression(network, optimizer='adam', learning_rate=LR, loss='categorical_crossentropy', name='targets')
-    model = tflearn.DNN(network, tensorboard_dir='/tmp/tensorflow_logs/lll')
+    model = tflearn.DNN(network, tensorboard_dir='/tmp/tensorflow_logs')
 
     return model

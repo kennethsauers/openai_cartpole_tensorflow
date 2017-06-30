@@ -2,8 +2,16 @@
 
 ## running order
 
-data generator- creates random data with scorces over thresehold 50
+    super.ipynb it the only file that matters
 
-model_trainer- trains a neural network to repodce high school results
+    it contains a class which is the training, data generator, and agent.
+    to run the agent create a agent class and run
 
-agent- uses the network to payer the enviorment can be renderd or not
+    agent = agent()
+    agent.run()
+
+## changes:
+
+    dropout added this changed the avg score from 75 to 196
+    tensorboard add this alls the graph to be view visually
+    layers renamed 
